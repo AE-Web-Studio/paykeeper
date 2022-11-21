@@ -9,7 +9,7 @@
             "email": "tolik.breathless@yandex.ru"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "php": ">=7.4"
     },
@@ -17,5 +17,11 @@
         "psr-4": {
             "shevelev_anatoliy\\Paykeeper\\": "src/"
         }
-    }
+    },
+    "repositories":[
+        {
+            "type":"git",
+            "url":"https://github.com/AE-Web-Studio/paykeeper"
+        }
+    ]
 }
