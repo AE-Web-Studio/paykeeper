@@ -1,0 +1,21 @@
+{
+    "name": "shevelev_anatoliy/paykeeper",
+    "description": "Library for accepting online payments for Paykeeper",
+    "keywords": ["paykeeper"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Shevelev Anatoliy",
+            "email": "tolik.breathless@yandex.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "shevelev_anatoliy\\Paykeeper\\": "src/"
+        }
+    }
+}
