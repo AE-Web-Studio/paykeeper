@@ -8,6 +8,5 @@ class Paykeeper
 
     public function create(int $orderId, $sum)
     {
-
     }
 }
