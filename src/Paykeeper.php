@@ -1,7 +1,5 @@
 <?php
 
-namespace shevelev_anatoliy\Paykeeper;
-
 class Paykeeper
 {
     public $login;
